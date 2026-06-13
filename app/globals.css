@@ -41,6 +41,27 @@
 @theme inline {
   --spacing-container: var(--container-spacing);
   --animate-scroll: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* shadcn-ui only */
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -59,25 +80,9 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --radius-2xl: calc(var(--radius) + 8px);
-  --radius-3xl: calc(var(--radius) + 12px);
-  --radius-4xl: calc(var(--radius) + 16px);
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}
-
+/* shadcn-ui only */
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -100,6 +105,7 @@
   --ring: oklch(0.708 0 0);
 }
 
+/* shadcn-ui only */
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -126,6 +132,20 @@
     @apply border-border outline-ring/50;
   }
 
+  ::-webkit-scrollbar,
+  *::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  html,
+  body,
+  * {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
   html,
   body {
     @apply w-full max-w-[100vw];
@@ -144,11 +164,11 @@
 
 @layer components {
   .title {
-    @apply text-4xl font-bold leading-none tracking-normal text-foreground uppercase lg:text-5xl xl:text-6xl;
+    @apply text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter text-foreground uppercase leading-none;
   }
 
   .title-counter {
-    @apply text-sm font-bold tracking-[0.2em] text-muted-foreground uppercase md:text-base;
+    @apply text-sm md:text-base font-bold tracking-[0.2em] text-muted-foreground uppercase;
   }
 
   .container-void {
@@ -156,14 +176,28 @@
   }
 
   .highlight-text-primary {
-    @apply font-serif font-light italic text-foreground/80;
+    @apply text-foreground/80 italic font-serif font-light;
   }
 
   .highlight-text-secondary {
-    @apply font-semibold text-foreground;
+    @apply text-foreground font-semibold;
   }
 
   .highlight-text-tertiary {
-    @apply font-bold text-foreground;
+    @apply text-foreground font-bold;
   }
+}
+
+html,
+body {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
