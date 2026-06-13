@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "stack": "기술",
+    "projects": "프로젝트",
+    "roadmap": "로드맵",
+    "contact": "연락"
+  },
+  "hero": {
+    "cta_primary": "연락하기",
+    "cta_secondary": "프로젝트 보기",
+    "scroll": "아래로 스크롤"
+  },
+  "about": {
+    "title": "소개",
+    "cta": "자세히 보기"
+  },
+  "stackTitle": "기술 스택",
+  "frontendStack": "프론트엔드",
+  "backendStack": "백엔드",
+  "databaseStack": "데이터베이스",
+  "toolsStack": "도구",
+  "projects": {
+    "title": "프로젝트",
+    "scroll_text": "스크롤해서 보기",
+    "end_text": "끝"
+  },
+  "roadmap": {
+    "title": "로드맵"
+  },
+  "contact": {
+    "title": "연락",
+    "send_email": "이메일 보내기",
+    "direct_line": "연락처",
+    "all_rights_reserved": "ALL RIGHTS RESERVED.",
+    "modal_title": "연락하기",
+    "modal_description": "메시지를 보내주시면 확인 후 답변드리겠습니다."
+  },
+  "others": {
+    "about_project": "프로젝트 소개",
+    "technologies": "사용 기술",
+    "live_demo": "라이브 데모",
+    "source_code": "소스 코드",
+    "project_details": "프로젝트 상세",
+    "select_language": "언어 선택",
+    "change_the_site_language": "사이트 언어를 변경합니다."
+  }
+}

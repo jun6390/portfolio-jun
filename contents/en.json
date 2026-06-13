@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "title": "A *frontend developer* turning ideas into real products",
+    "stats": "***User experience*** focused web development"
+  },
+  "about": {
+    "intro": "A developer who grows by *building, testing, and improving* real projects.",
+    "description": "I build web experiences with React and Next.js, focusing on clear user flows and **maintainable code**.",
+    "full": "I am a developer who grows by building and improving real projects.\n\nI mainly work with React, Next.js, TypeScript, and Tailwind CSS to create web interfaces and user experiences. I try not to stop at making a screen visible, but to write code with clear component structure and understandable data flow.\n\nWhen working on a project, I first think about how users move through the service, then design an interface that supports that flow. I am also interested in building structures that remain easy to maintain as features grow.\n\nMy goal is to work on larger services that solve real user problems, while growing into a developer who understands not only frontend development but also backend systems and product structure."
+  },
+  "manifesto": {
+    "items": [
+      "CLEAR STRUCTURE",
+      "USER FIRST FLOW",
+      "MAINTAINABLE CODE",
+      "RESPONSIVE EXPERIENCE",
+      "PRACTICAL DESIGN",
+      "CONTINUOUS IMPROVEMENT"
+    ]
+  },
+  "projects": {
+    "intro": "A collection of *web services* and *experimental projects* that I designed and built.",
+    "items": [
+      {
+        "id": "1",
+        "title": "ScholarMate",
+        "category": "Web Application",
+        "year": "2026",
+        "description": "A web application that helps users explore scholarship information and find opportunities that match their needs.",
+        "image": "/projects/20260427093247885.jpg",
+        "repo": "https://github.com/",
+        "stack": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+      },
+      {
+        "id": "2",
+        "title": "Portfolio Website",
+        "category": "Portfolio",
+        "year": "2026",
+        "description": "A multilingual portfolio website built to introduce my projects, technical stack, and development journey.",
+        "image": "/projects/20260427093247620.jpg",
+        "repo": "https://github.com/",
+        "stack": ["Next.js", "Tailwind CSS", "Framer Motion"]
+      },
+      {
+        "id": "3",
+        "title": "Project Archive",
+        "category": "Experiment",
+        "year": "2025",
+        "description": "A collection of small features and UI experiments created during my learning process.",
+        "image": "/projects/20260305210513749.jpg",
+        "repo": "https://github.com/",
+        "stack": ["JavaScript", "CSS", "HTML"]
+      }
+    ]
+  },
+  "roadmap": {
+    "description": "A short timeline of what I have learned and the direction I want to grow in.",
+    "items": [
+      {
+        "id": "01",
+        "year": "2024",
+        "description": "I started learning the structure and behavior of web pages with HTML, CSS, and JavaScript.",
+        "tags": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "id": "02",
+        "year": "2025",
+        "description": "I built component-based interfaces with React and learned how to manage state and user interactions.",
+        "tags": ["React", "JavaScript"]
+      },
+      {
+        "id": "03",
+        "year": "2026",
+        "description": "I am building more structured web applications with Next.js and TypeScript.",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "contact": {
+    "description": "Feel free to reach out for collaboration, feedback, or opportunities.",
+    "email": "your-email@example.com",
+    "phone": "To be added"
+  },
+  "social": {
+    "title": "SOCIAL",
+    "items": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/"
+      }
+    ]
+  },
+  "stack": {
+    "frontend": [
+      {
+        "name": "React",
+        "icon": "/stack/react.svg",
+        "featured": true
+      },
+      {
+        "name": "Next.js",
+        "icon": "/stack/nextjs.svg",
+        "featured": true
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/stack/typescript.svg",
+        "featured": true
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/stack/tailwindcss.svg",
+        "featured": true
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "/stack/nodejs.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "/stack/python.svg"
+      }
+    ],
+    "database": [
+      {
+        "name": "PostgreSQL",
+        "icon": "/stack/postgresql.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/stack/mongodb.svg"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "icon": "/stack/git.svg"
+      },
+      {
+        "name": "Vercel",
+        "icon": "/stack/vercel.svg"
+      }
+    ]
+  }
+}
