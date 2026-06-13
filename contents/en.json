@@ -1,11 +1,11 @@
 {
   "hero": {
-    "title": "A *frontend developer* turning ideas into real products",
-    "stats": "***User experience*** focused web development"
+    "title": "parkhaejun",
+    "stats": "portfolio"
   },
   "about": {
     "intro": "A developer who grows by *building, testing, and improving* real projects.",
-    "description": "I build web experiences with React and Next.js, focusing on clear user flows and **maintainable code**.",
+    "description": "With a *frontend development-focused* mindset, I design user flows and screen structures, using React and Next.js to build **intuitive interfaces** and ***maintainable components***.",
     "full": "I am a developer who grows by building and improving real projects.\n\nI mainly work with React, Next.js, TypeScript, and Tailwind CSS to create web interfaces and user experiences. I try not to stop at making a screen visible, but to write code with clear component structure and understandable data flow.\n\nWhen working on a project, I first think about how users move through the service, then design an interface that supports that flow. I am also interested in building structures that remain easy to maintain as features grow.\n\nMy goal is to work on larger services that solve real user problems, while growing into a developer who understands not only frontend development but also backend systems and product structure."
   },
   "manifesto": {
@@ -78,19 +78,19 @@
   },
   "contact": {
     "description": "Feel free to reach out for collaboration, feedback, or opportunities.",
-    "email": "your-email@example.com",
-    "phone": "To be added"
+    "email": "joon6390@naver.com",
+    "phone": "010-4998-6392"
   },
   "social": {
     "title": "SOCIAL",
     "items": [
       {
         "label": "GitHub",
-        "href": "https://github.com/"
+        "href": "https://github.com/haejunbag131-maker"
       },
       {
-        "label": "LinkedIn",
-        "href": "https://linkedin.com/"
+        "label": "Velog",
+        "href": "https://velog.io/@jun6390/posts"
       }
     ]
   },

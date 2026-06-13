@@ -1,32 +1,32 @@
 {
   "hero": {
-    "title": "아이디어를 실제 서비스로 구현하는 *프론트엔드 개발자*",
-    "stats": "***사용자 경험*** 중심의 웹 개발"
+    "title": "HaeJun",
+    "stats": "Portfolio"
   },
   "about": {
-    "intro": "*직접 만들고 개선하며* 성장하는 개발자입니다.",
-    "description": "React와 Next.js를 중심으로 웹 서비스를 만들고, 사용자가 이해하기 쉬운 흐름과 **유지보수 가능한 코드**를 중요하게 생각합니다.",
-    "full": "저는 직접 프로젝트를 만들고 개선하는 과정을 통해 성장해온 개발자입니다.\n\n주로 React, Next.js, TypeScript, Tailwind CSS를 사용해 웹 화면과 사용자 경험을 구현합니다. 단순히 화면이 보이는 것에서 끝내지 않고, 컴포넌트 구조와 데이터 흐름이 명확한 코드를 작성하려고 합니다.\n\n프로젝트를 진행할 때는 사용자가 어떤 흐름으로 서비스를 이용하는지 먼저 생각하고, 그 흐름에 맞는 인터페이스를 설계하려고 합니다. 또한 기능이 늘어나도 관리하기 쉬운 구조를 만드는 데 관심이 있습니다.\n\n앞으로는 더 큰 규모의 서비스와 실제 사용자 문제를 해결하는 프로젝트를 경험하며, 프론트엔드뿐 아니라 백엔드와 시스템 설계까지 이해하는 개발자로 성장하고 싶습니다."
+    "intro": "*직접 만들고 개선하며* 성장하고, 아이디어를 **실제 결과물**로 구현하는 개발자입니다.",
+    "description": "*프론트엔드 개발 중심의* 사고를 바탕으로 사용자 흐름과 화면 구조를 설계하고, React와 Next.js를 활용해 **직관적인 인터페이스**와 ***유지보수 가능한 컴포넌트***를 만드는 것을 중요하게 생각합니다.",
+    "full": "저는 직접 프로젝트를 만들고 개선하는 과정을 통해 성장해온 개발자입니다. 아이디어를 실제로 동작하는 결과물로 만드는 과정을 가장 즐깁니다.\n\n주로 웹 개발을 중심으로 작업하며 React, Next.js, Node.js, Express, Laravel 같은 기술을 사용해 프론트엔드와 백엔드를 모두 경험했습니다. MongoDB와 PostgreSQL을 활용한 데이터 관리 경험도 있으며, C#과 WinForms로 데스크톱 애플리케이션을 만들어본 경험도 있습니다. 최근에는 Tauri와 Rust를 활용한 가벼운 데스크톱 앱도 실험하고 있습니다.\n\n필요에 따라 다양한 도구도 함께 사용합니다. 예를 들어 FFmpeg를 활용한 미디어 처리 프로젝트를 만들어본 경험이 있습니다. 새로운 기술을 탐색하는 것을 좋아하고, 무언가를 가장 잘 배우는 방법은 직접 사용해보는 것이라고 생각합니다.\n\n프로젝트를 만들 때 단순히 동작하는 것만으로 충분하다고 생각하지 않습니다. 가능한 한 코드를 깔끔하고 이해하기 쉬우며 유지보수하기 좋은 구조로 만들려고 합니다. 문제가 생기면 빠르게 넘어가기보다, 그 문제가 실제로 어떻게 동작하는지 이해하려고 합니다.\n\n현재 목표는 더 크고 실제 영향력이 있는 프로젝트를 경험하며, 특히 백엔드 개발과 시스템 설계 역량을 더 깊게 키우는 것입니다."
   },
   "manifesto": {
     "items": [
-      "CLEAR STRUCTURE",
-      "USER FIRST FLOW",
-      "MAINTAINABLE CODE",
-      "RESPONSIVE EXPERIENCE",
-      "PRACTICAL DESIGN",
-      "CONTINUOUS IMPROVEMENT"
+      "명확한 구조",
+      "사용자 중심 흐름",
+      "유지보수 가능한 코드",
+      "반응형 경험",
+      "실용적인 설계",
+      "지속적인 개선"
     ]
   },
   "projects": {
-    "intro": "직접 설계하고 구현한 *웹 서비스*와 *실험적인 프로젝트* 모음입니다.",
+    "intro": "직접 설계하고 구현한 *웹 서비스*, *실험적인 프로젝트*, 그리고 **디지털 결과물**입니다.",
     "items": [
       {
         "id": "1",
         "title": "ScholarMate",
-        "category": "Web Application",
+        "category": "웹 애플리케이션",
         "year": "2026",
-        "description": "장학금 정보를 수집하고 사용자에게 맞는 정보를 탐색할 수 있게 도와주는 웹 애플리케이션입니다.",
+        "description": "장학금 정보를 수집하고 사용자가 필요한 정보를 탐색할 수 있도록 돕는 웹 애플리케이션입니다.",
         "image": "/projects/20260427093247885.jpg",
         "repo": "https://github.com/",
         "stack": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
@@ -34,9 +34,9 @@
       {
         "id": "2",
         "title": "Portfolio Website",
-        "category": "Portfolio",
+        "category": "포트폴리오",
         "year": "2026",
-        "description": "개인 프로젝트와 기술 스택을 소개하기 위해 제작한 다국어 포트폴리오 웹사이트입니다.",
+        "description": "개인 프로젝트와 기술 스택, 개발 과정을 소개하기 위해 제작한 다국어 포트폴리오 웹사이트입니다.",
         "image": "/projects/20260427093247620.jpg",
         "repo": "https://github.com/",
         "stack": ["Next.js", "Tailwind CSS", "Framer Motion"]
@@ -44,7 +44,7 @@
       {
         "id": "3",
         "title": "Project Archive",
-        "category": "Experiment",
+        "category": "실험 프로젝트",
         "year": "2025",
         "description": "학습 과정에서 만든 작은 기능과 UI 실험을 정리한 프로젝트입니다.",
         "image": "/projects/20260305210513749.jpg",
@@ -54,12 +54,12 @@
     ]
   },
   "roadmap": {
-    "description": "개발을 배우며 쌓아온 경험과 앞으로 확장하고 싶은 방향입니다.",
+    "description": "개발을 배우며 쌓아온 경험과 앞으로 확장하고 싶은 방향을 정리한 로드맵입니다.",
     "items": [
       {
         "id": "01",
         "year": "2024",
-        "description": "HTML, CSS, JavaScript를 학습하며 웹 페이지 구조와 기본 동작을 이해하기 시작했습니다.",
+        "description": "HTML, CSS, JavaScript를 학습하며 웹 페이지의 구조와 기본 동작을 이해하기 시작했습니다.",
         "tags": ["HTML", "CSS", "JavaScript"]
       },
       {
@@ -77,20 +77,20 @@
     ]
   },
   "contact": {
-    "description": "프로젝트 협업, 피드백, 채용 관련 문의를 편하게 보내주세요.",
-    "email": "your-email@example.com",
-    "phone": "추후 추가 예정"
+    "description": "새로운 프로젝트를 함께 시작하거나 기존 시스템을 더 발전시키는 일 모두 환영합니다.",
+    "email": "joon6390@naver.com",
+    "phone": "010-4998-6392"
   },
   "social": {
     "title": "SOCIAL",
     "items": [
       {
         "label": "GitHub",
-        "href": "https://github.com/"
+        "href": "https://github.com/haejunbag131-maker"
       },
       {
-        "label": "LinkedIn",
-        "href": "https://linkedin.com/"
+        "label": "Velog",
+        "href": "https://velog.io/@jun6390/posts"
       }
     ]
   },

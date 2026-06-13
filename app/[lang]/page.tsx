@@ -1,7 +1,7 @@
 import ScrollProgress from "@/components/layout/scroll-progress";
+import Hero from "@/components/sections/hero";
 
 const sections = [
-  { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "stack", label: "Stack" },
   { id: "projects", label: "Projects" },
@@ -14,7 +14,9 @@ export default function Home() {
     <>
       <ScrollProgress />
 
-      <main className="bg-background text-foreground">
+      <main className="relative bg-background text-foreground">
+        <Hero />
+
         {sections.map((section, index) => (
           <section
             key={section.id}
@@ -23,11 +25,9 @@ export default function Home() {
           >
             <div>
               <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
-                {String(index + 1).padStart(2, "0")}
+                {String(index + 2).padStart(2, "0")}
               </p>
-              <h1 className="font-display text-6xl font-black uppercase tracking-normal">
-                {section.label}
-              </h1>
+              <h2 className="title">{section.label}</h2>
             </div>
           </section>
         ))}

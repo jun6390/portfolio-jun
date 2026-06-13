@@ -8,9 +8,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "cta_primary": "연락하기",
-    "cta_secondary": "프로젝트 보기",
-    "scroll": "아래로 스크롤"
+    "cta_primary": "Connect",
+    "cta_secondary": "View Projects",
+    "scroll": "Scroll Down"
   },
   "about": {
     "title": "소개",
@@ -32,10 +32,10 @@
   "contact": {
     "title": "연락",
     "send_email": "이메일 보내기",
-    "direct_line": "연락처",
+    "direct_line": "직접 연락",
     "all_rights_reserved": "ALL RIGHTS RESERVED.",
-    "modal_title": "연락하기",
-    "modal_description": "메시지를 보내주시면 확인 후 답변드리겠습니다."
+    "modal_title": "Let's Connect",
+    "modal_description": "메시지를 보내주시면 가능한 빠르게 답변드리겠습니다."
   },
   "others": {
     "about_project": "프로젝트 소개",
