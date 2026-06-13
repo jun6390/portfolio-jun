@@ -1,11 +1,11 @@
 {
   "nav": {
-    "home": "홈",
-    "about": "소개",
-    "stack": "기술",
-    "projects": "프로젝트",
-    "roadmap": "로드맵",
-    "contact": "연락"
+    "home": "Home",
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "roadmap": "Roadmap",
+    "contact": "Contact"
   },
   "hero": {
     "cta_primary": "연락하기",

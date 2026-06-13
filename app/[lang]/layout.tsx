@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { Inter, Syne } from "next/font/google";
-import "../globals.css";
-import { isValidLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
+import "../globals.css";
+
+import { isValidLocale } from "@/lib/i18n";
 import { getContents, getDictionary } from "@/lib/loaders";
+
 import { LanguageProvider } from "@/providers/language-provider";
 import SmoothScroll from "@/providers/smooth-scroll-provider";
 import { ThemeProvider } from "@/providers/theme-provider";
+
+import Navbar from "@/components/layout/navbar";
 
 const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -53,7 +57,10 @@ export default async function LangLayout({
             defaultTheme="dark"
             enableSystem={false}
           >
-            <SmoothScroll>{children}</SmoothScroll>
+            <SmoothScroll>
+              <Navbar />
+              {children}
+            </SmoothScroll>
           </ThemeProvider>
         </LanguageProvider>
       </body>

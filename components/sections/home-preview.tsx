@@ -19,7 +19,7 @@ export default function HomePreview() {
 
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <section className="px-6 py-16">
+      <section id="home" className="px-6 py-32">
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
           {lang}
         </p>
