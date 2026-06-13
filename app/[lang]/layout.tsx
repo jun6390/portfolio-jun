@@ -10,6 +10,8 @@ import { LanguageProvider } from "@/providers/language-provider";
 import SmoothScroll from "@/providers/smooth-scroll-provider";
 import { ThemeProvider } from "@/providers/theme-provider";
 
+import { CustomCursor } from "@/components/layout/custom-cursor";
+import { Preloader } from "@/components/layout/preloader";
 import Navbar from "@/components/layout/navbar";
 
 const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
@@ -57,6 +59,8 @@ export default async function LangLayout({
             defaultTheme="dark"
             enableSystem={false}
           >
+            <CustomCursor />
+            <Preloader />
             <SmoothScroll>
               <Navbar />
               {children}

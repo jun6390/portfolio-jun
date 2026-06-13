@@ -41,6 +41,8 @@
 @theme inline {
   --spacing-container: var(--container-spacing);
   --animate-scroll: scroll 60s linear infinite;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-syne);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -144,7 +146,7 @@
 
 @layer components {
   .title {
-    @apply text-4xl font-bold leading-none tracking-normal text-foreground uppercase lg:text-5xl xl:text-6xl;
+    @apply font-display text-4xl font-bold leading-none tracking-normal text-foreground uppercase lg:text-5xl xl:text-6xl;
   }
 
   .title-counter {
