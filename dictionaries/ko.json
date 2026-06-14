@@ -16,11 +16,11 @@
     "title": "About Me",
     "cta": "Read Full Version"
   },
-  "stackTitle": "기술 스택",
-  "frontendStack": "프론트엔드",
-  "backendStack": "백엔드",
-  "databaseStack": "데이터베이스",
-  "toolsStack": "도구",
+  "stackTitle": "Skill",
+  "frontendStack": "Frontend",
+  "backendStack": "Backend",
+  "databaseStack": "Database",
+  "toolsStack": "Tools",
   "projects": {
     "title": "프로젝트",
     "scroll_text": "스크롤해서 보기",
