@@ -141,25 +141,37 @@
     ]
   },
   "roadmap": {
-    "description": "A short timeline of what I have learned and the direction I want to grow in.",
+    "description": "A roadmap where I share the experiences I've gained throughout my software journey and the technologies I've learned.",
     "items": [
       {
         "id": "01",
-        "year": "2024",
-        "description": "I started learning the structure and behavior of web pages with HTML, CSS, and JavaScript.",
-        "tags": ["HTML", "CSS", "JavaScript"]
+        "year": "2020",
+        "description": "I entered university and was first introduced to programming through the Software Convergence major. Through major courses, I learned Python and C, building a foundation in programmingand object-oriented thinking.",
+        "tags": ["Python", "C"]
       },
       {
         "id": "02",
-        "year": "2025",
-        "description": "I built component-based interfaces with React and learned how to manage state and user interactions.",
-        "tags": ["React", "JavaScript"]
+        "year": "2023",
+        "description": "After completing my military service, I studied HTML, CSS, and JavaScriptthrough a web programming course and began building static and dynamic websites. While working on projects, I also learned how to connect and use databases. In addition, \n I studied Java in an object-oriented programming course, and built foundational computer science knowledge through major coursessuch as data structures, algorithms, computer architecture, and discrete mathematics.",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Java", "CS Knowledge"]
       },
       {
         "id": "03",
+        "year": "2024",
+        "description": "In the first semester, I studied Android Studio and Kotlinthrough a mobile programming course. \n Based on that experience,I developed an Android application using Raspberry Piin a convergence software project during the second semester. \n I also learned MySQL through a database course and built foundational knowledgeacross computer science through major courses such as computer networks, systems analysis and design, operating systems, and software engineering.",
+        "tags": ["Android Studio", "Kotlin", "MySQL", "CS Knowledge"]
+      },
+      {
+        "id": "04",
+        "year": "2025",
+        "description": "While working as the frontend developer in sophomore and junior-year projects, I became interested in designing and implementing user interfaces, which led me to take charge of frontend development for my graduation project. \n After that, I clarified my career direction as a frontend developerand focused on learning technologies such as React, JavaScript, and Tailwind CSS. \n I applied what I learned to my graduation project and ultimately won an Excellence Awardin the ESG category at my university's Capstone Design Competition.",
+        "tags": ["React", "JavaScript", "Tailwind CSS"]
+      },
+      {
+        "id": "05",
         "year": "2026",
-        "description": "I am building more structured web applications with Next.js and TypeScript.",
-        "tags": ["Next.js", "TypeScript", "Tailwind CSS"]
+        "description": "After graduating from university, I joined the [LG U+] URECA SW training program, a frontend developer bootcamp, where I am strengthening my frontend skillswith a focus on React and JavaScript. \n Through personal and team projects, I have also gained experience with technologies such as TypeScript, Next.js, Figma, and Spring Boot. \n By using AI to quickly learn unfamiliar technologies and apply them to projects, I am also improving my ability to utilize AI and strengthening my collaboration skills.",
+        "tags": ["Next.js", "TypeScript", "Figma", "Spring Boot"]
       }
     ]
   },

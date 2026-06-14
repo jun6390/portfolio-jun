@@ -145,25 +145,37 @@
     ]
   },
   "roadmap": {
-    "description": "개발을 배우며 쌓아온 경험과 앞으로 확장하고 싶은 방향을 정리한 로드맵입니다.",
+    "description": "소프트웨어 여정에서 쌓은 경험과 배운 기술을 공유하는 로드맵입니다.",
     "items": [
       {
         "id": "01",
-        "year": "2024",
-        "description": "HTML, CSS, JavaScript를 학습하며 웹 페이지의 구조와 기본 동작을 이해하기 시작했습니다.",
-        "tags": ["HTML", "CSS", "JavaScript"]
+        "year": "2020",
+        "description": "대학교에 입학하여 소프트웨어융합 전공에서 \n 프로그래밍을 처음 접했고, 전공 수업을 통해 \n 파이썬과 C언어를 배우고 프로그래밍의 기초와 \n 객체지향적 사고방식을 익혔습니다.",
+        "tags": ["Python", "C"]
       },
       {
         "id": "02",
-        "year": "2025",
-        "description": "React를 사용해 컴포넌트 기반 UI를 만들고, 상태 관리와 사용자 인터랙션을 구현했습니다.",
-        "tags": ["React", "JavaScript"]
+        "year": "2023",
+        "description": "군 전역 후 웹 프로그래밍 수업을 통해 HTML, CSS, JavaScript를 학습하며 정적·동적 웹사이트를 구현하기 시작했습니다. 프로젝트를 진행하며 데이터베이스를 \n 연동하고 활용하는 방법도 익혔습니다. \n 또한, 객체지향 프로그래밍 수업에서 Java를 배우고, \n 자료구조·알고리즘·컴퓨터 구조·이산수학 등의 전공 \n 수업을 통해 컴퓨터공학의 기초 지식을 쌓았습니다.",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Java", "CS 지식"]
       },
       {
         "id": "03",
+        "year": "2024",
+        "description": "1학기 모바일 프로그래밍 수업을 통해 \n Android Studio와 Kotlin을 학습했으며, 이를 바탕으로 2학기 융합소프트웨어 프로젝트에서 Raspberry Pi를 \n 활용한 안드로이드 애플리케이션을 개발했습니다. \n 또한, 데이터베이스 수업을 통해 MySQL을 익히고, \n 컴퓨터 네트워크·시스템 분석 및 설계·운영체제· \n 소프트웨어공학 등의 전공 수업을 통해 컴퓨터공학 \n 전반의 기초 지식을 쌓았습니다.",
+        "tags": ["Android Studio", "Kotlin", "MySQL", "CS 지식"]
+      },
+      {
+        "id": "04",
+        "year": "2025",
+        "description": "2·3학년 프로젝트에서 프론트엔드 개발을 맡아 화면을 설계하고 구현하는 과정에 흥미를 느꼈으며, 이를 \n 계기로 졸업작품에서도 프론트엔드를 담당했습니다. \n 이후 프론트엔드 개발자로 진로를 구체화하고 \n React, JavaScript, Tailwind CSS 등의 기술을 집중적으로 학습했습니다. 학습한 내용을 졸업작품에 적용했으며, 최종적으로 교내 캡스톤디자인 경진대회 ESG 부문에서 우수상을 수상했습니다.",
+        "tags": ["React", "JavaScript", "Tailwind CSS"]
+      },
+      {
+        "id": "05",
         "year": "2026",
-        "description": "Next.js와 TypeScript를 활용해 더 구조적인 웹 애플리케이션을 만들고 있습니다.",
-        "tags": ["Next.js", "TypeScript", "Tailwind CSS"]
+        "description": "대학교 졸업 후, [LG유플러스] 유레카 SW교육과정 \n 프론트엔드 개발자 부트캠프에 참여하며 \n React와 JavaScript를 중심으로 프론트엔드 역량을 \n 강화하고 있습니다. 또한, 개인·팀 프로젝트를 진행하며 TypeScript, Next.js, Figma, Spring Boot 등 다양한 기술을 경험하고, AI를 활용해 익숙하지 않은 기술도 빠르게 학습하며 프로젝트에 적용함으로서 AI 활용 능력을 \n 강화하고 협업 역량 또한 강화하고 있습니다.",
+        "tags": ["Next.js", "TypeScript", "Figma", "Spring Boot"]
       }
     ]
   },
