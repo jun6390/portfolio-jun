@@ -3,7 +3,7 @@
     "home": "Intro",
     "about": "About",
     "stack": "Skill",
-    "projects": "Project",
+    "projects": "Projects",
     "roadmap": "Roadmap",
     "contact": "Contact"
   },
@@ -16,7 +16,7 @@
     "title": "About Me",
     "cta": "Read Full Version"
   },
-  "stackTitle": "Stack",
+  "stackTitle": "Skill",
   "frontendStack": "Frontend",
   "backendStack": "Backend",
   "databaseStack": "Database",

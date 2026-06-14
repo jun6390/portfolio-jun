@@ -18,28 +18,115 @@
       "CONTINUOUS IMPROVEMENT"
     ]
   },
+  "stack": {
+    "frontend": [
+      {
+        "name": "HTML5",
+        "icon": "/stack/html5.svg"
+      },
+      {
+        "name": "CSS3",
+        "icon": "/stack/css3.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/stack/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/stack/typescript.svg"
+      },
+      {
+        "name": "React",
+        "icon": "/stack/react.svg"
+      },
+      {
+        "name": "Next.js",
+        "icon": "/stack/nextjs.svg"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon": "/stack/tailwindcss.svg"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Spring Boot",
+        "icon": "/stack/spring_boot.png"
+      },
+      {
+        "name": "Django",
+        "icon": "/stack/django.svg"
+      },
+      {
+        "name": "Java",
+        "icon": "/stack/java.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "/stack/python.svg"
+      }
+    ],
+    "database": [
+      {
+        "name": "MySQL",
+        "icon": "/stack/mysql.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/stack/mongodb.svg"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "icon": "/stack/git.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "/stack/github.svg"
+      },
+      {
+        "name": "Figma",
+        "icon": "/stack/figma1.svg"
+      },
+      {
+        "name": "Notion",
+        "icon": "/stack/notion.svg"
+      },
+      {
+        "name": "Slack",
+        "icon": "/stack/slack1.svg"
+      }
+    ]
+  },
   "projects": {
-    "intro": "A collection of *web services* and *experimental projects* that I designed and built.",
+    "intro": "Introducing **projects** completed from \n *planning to implementation* \n with a focus on *UX*.",
     "items": [
       {
         "id": "1",
-        "title": "ScholarMate",
-        "category": "Web Application",
-        "year": "2026",
+        "title": "Scholar Mate",
+        "category": "Capstone Design Project",
+        "year": "2025",
         "description": "A web application that helps users explore scholarship information and find opportunities that match their needs.",
-        "image": "/projects/20260427093247885.jpg",
-        "repo": "https://github.com/",
-        "stack": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+        "image": "/projects/scholarmate.png",
+        "demo": "https://배포주소.com",
+        "repo": "https://github.com/haejunbag131-maker/scholarmate-frontend",
+        "pdf": "/projects/scholarmate.pdf",
+        "stack": ["React", "CSS3", "JavaScript", "Tailwind CSS", "Vite"]
       },
       {
         "id": "2",
-        "title": "Portfolio Website",
-        "category": "Portfolio",
+        "title": "MoodWave",
+        "category": "Bootcamp Mini Project",
         "year": "2026",
         "description": "A multilingual portfolio website built to introduce my projects, technical stack, and development journey.",
-        "image": "/projects/20260427093247620.jpg",
-        "repo": "https://github.com/",
-        "stack": ["Next.js", "Tailwind CSS", "Framer Motion"]
+        "demo": "https://moodwave-fe.vercel.app/",
+        "image": "/projects/moodwave.png",
+        "repo": "https://github.com/ureca-void/moodwave-frontend",
+        "pdf": "/projects/moodwave.pdf",
+        "video": "https://youtu.be/KzjJEWp_JRg?si=Cs7nsR7ZQjDaIr75",
+        "stack": ["HTML5", "CSS3", "JavaScript", "Vite"]
       },
       {
         "id": "3",
@@ -91,60 +178,6 @@
       {
         "label": "Velog",
         "href": "https://velog.io/@jun6390/posts"
-      }
-    ]
-  },
-  "stack": {
-    "frontend": [
-      {
-        "name": "React",
-        "icon": "/stack/react.svg",
-        "featured": true
-      },
-      {
-        "name": "Next.js",
-        "icon": "/stack/nextjs.svg",
-        "featured": true
-      },
-      {
-        "name": "TypeScript",
-        "icon": "/stack/typescript.svg",
-        "featured": true
-      },
-      {
-        "name": "Tailwind CSS",
-        "icon": "/stack/tailwindcss.svg",
-        "featured": true
-      }
-    ],
-    "backend": [
-      {
-        "name": "Node.js",
-        "icon": "/stack/nodejs.svg"
-      },
-      {
-        "name": "Python",
-        "icon": "/stack/python.svg"
-      }
-    ],
-    "database": [
-      {
-        "name": "PostgreSQL",
-        "icon": "/stack/postgresql.svg"
-      },
-      {
-        "name": "MongoDB",
-        "icon": "/stack/mongodb.svg"
-      }
-    ],
-    "tools": [
-      {
-        "name": "Git",
-        "icon": "/stack/git.svg"
-      },
-      {
-        "name": "Vercel",
-        "icon": "/stack/vercel.svg"
       }
     ]
   }
