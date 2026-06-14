@@ -40,7 +40,7 @@ export function HangingProfile() {
         const dx = state.current.dragX;
         const dy = Math.max(state.current.dragY, 10);
 
-        let targetAngle = Math.atan2(dx, dy);
+        const targetAngle = Math.atan2(dx, dy);
         let targetLength = Math.sqrt(dx * dx + dy * dy);
 
         if (targetLength > ropeLength) {
@@ -115,7 +115,7 @@ export function HangingProfile() {
   return (
     <div
       ref={containerRef}
-      className="relative -mt-4 flex h-[350px] w-[300px] justify-center"
+      className="relative -mt-4 flex h-87.5 w-75 justify-center"
     >
       <svg className="pointer-events-none absolute left-0 top-0 h-full w-full overflow-visible">
         <line
@@ -148,7 +148,7 @@ export function HangingProfile() {
       <div
         ref={boxRef}
         onPointerDown={handlePointerDown}
-        className="group absolute top-0 flex w-[140px] cursor-grab select-none flex-col items-center justify-center rounded-2xl border border-foreground/10 bg-background/40 p-4 shadow-2xl backdrop-blur-md transition-colors duration-300 hover:bg-background/60"
+        className="group absolute top-0 flex w-35 cursor-grab select-none flex-col items-center justify-center rounded-2xl border border-foreground/10 bg-background/40 p-4 shadow-2xl backdrop-blur-md transition-colors duration-300 hover:bg-background/60"
         style={{
           left: "50%",
           marginLeft: "-70px",

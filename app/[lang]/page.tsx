@@ -1,10 +1,10 @@
 import ScrollProgress from "@/components/layout/scroll-progress";
 import Hero from "@/components/sections/hero";
 import About from "@/components/sections/about";
+import Skill from "@/components/sections/skill";
+import ManifestoFlow from "@/components/effects/manifesto-flow";
 
 const sections = [
-  { id: "about", label: "About" },
-  { id: "stack", label: "Stack" },
   { id: "projects", label: "Projects" },
   { id: "roadmap", label: "Roadmap" },
   { id: "contact", label: "Contact" },
@@ -18,6 +18,9 @@ export default function Home() {
       <main className="relative bg-background text-foreground">
         <Hero />
         <About />
+        <ManifestoFlow />
+        <Skill />
+        <ManifestoFlow />
 
         {sections.map((section, index) => (
           <section
