@@ -3,7 +3,7 @@
     "home": "Intro",
     "about": "About",
     "stack": "Skill",
-    "projects": "Project",
+    "projects": "Projects",
     "roadmap": "Roadmap",
     "contact": "Contact"
   },
@@ -22,12 +22,12 @@
   "databaseStack": "Database",
   "toolsStack": "Tools",
   "projects": {
-    "title": "프로젝트",
-    "scroll_text": "스크롤해서 보기",
-    "end_text": "끝"
+    "title": "projects",
+    "scroll_text": "Scroll to Explore",
+    "end_text": "End"
   },
   "roadmap": {
-    "title": "로드맵"
+    "title": "Roadmap"
   },
   "contact": {
     "title": "연락",
@@ -38,11 +38,11 @@
     "modal_description": "메시지를 보내주시면 가능한 빠르게 답변드리겠습니다."
   },
   "others": {
-    "about_project": "프로젝트 소개",
-    "technologies": "사용 기술",
-    "live_demo": "라이브 데모",
-    "source_code": "소스 코드",
-    "project_details": "프로젝트 상세",
+    "about_project": "About the Project",
+    "technologies": "Technologies",
+    "live_demo": "Live Demo",
+    "source_code": "Source Code",
+    "project_details": "Project Details",
     "select_language": "언어 선택",
     "change_the_site_language": "사이트 언어를 변경합니다."
   }
