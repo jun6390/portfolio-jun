@@ -111,7 +111,7 @@
         "description": "ScholarMate is a web service that brings scholarship information scattered across multiple organizations into one searchable place, recommends scholarships based on a user's academic status, region, income level, and grades, and helps users manage deadlines for scholarships they are interested in. \n\n I was responsible for frontend development on this project, implementing scholarship search, personalized recommendations, favorites, calendar, community, messaging, and authentication flows. \n Beyond building screens, I handled API integration, server-state management, optimistic updates, performance optimization, and accessibility checks, connecting the full flow from discovering scholarships to managing application schedules.",
         "image": "/projects/scholarmate.webp",
         "demo": "https://배포주소.com",
-        "repo": "https://github.com/haejunbag131-maker/scholarmate-frontend",
+        "repo": "https://github.com/jun6390/scholarmate-frontend",
         "paper": "/projects/scholarmate_paper.pdf",
         "portfolioPdf": "/projects/scholarmate_port.pdf",
         "stack": ["React", "Tailwind CSS", "JavaScript", "Vite"]
@@ -124,7 +124,7 @@
         "description": "MoodWave is a web service centered on Spotify music discovery and playback. It recommends songs based on the user's mood and current weather, analyzes their most-listened-to genres, and suggests popular tracks from those genres. \n\n I implemented the shared layout, hash-based routing, home, search, playlist, and mood recommendation interfaces, along with Spotify OAuth authentication and a Web Playback SDK-based player. After the project, I improved page lifecycle management, request cancellation, data caching, external SDK lazy loading, and image optimization.",
         "demo": "https://moodwave-fe.vercel.app/",
         "image": "/projects/moodwave.webp",
-        "repo": "https://github.com/haejunbag131-maker/moodwave-frontend",
+        "repo": "https://github.com/jun6390/moodwave-frontend",
         "report": "/projects/moodwave.pdf",
         "portfolioPdf": "/projects/moodwave_port.pdf",
         "video": "https://youtu.be/KzjJEWp_JRg?si=Cs7nsR7ZQjDaIr75",
@@ -132,13 +132,24 @@
       },
       {
         "id": "3",
+        "title": "DevTube",
+        "category": "Personal Project [1]",
+        "year": "2024",
+        "description": "DevTube is a learning video collection web service that uses the YouTube API to help developers and certification learners discover and watch relevant educational videos.\n\nBuilt with React and Vite, it includes recommended videos, recommended developer channels, course categories, search, channel detail pages, and video detail pages.\nThe responsive layout was improved for mobile usability, including video playback and sidebar behavior, while React Query was introduced to handle API caching, request deduplication, and structured error states.\n\nThe project also improves user experience and code quality through skeleton UI, error message, image lazy loading, font optimization, SEO meta handling, accessibility attributes, and ESLint/Prettier configuration.\nAll changes were verified through production builds, lint checks, and format checks.",
+        "demo": "https://devtube-fe.vercel.app/",
+        "image": "/projects/devtube.webp",
+        "repo": "https://github.com/jun6390/devtube",
+        "stack": ["React", "SCSS", "JavaScript"]
+      },
+      {
+        "id": "4",
         "title": "Feelog",
         "category": "Personal Project",
         "year": "2025",
         "description": "Feelog is an emotion journaling web service where users can record their daily feelings, revisit past entries through search and emotion filters, and add personal reflections.\n\nUsing Cursor AI, I broke requirements into functional tasks and designed prompts to implement diary CRUD, search, filtering, pagination, reflections, a photo archive, and authentication flows. \n I reviewed the generated code, reproduced and resolved issues, improved React Query state management, Next.js API Routes, Supabase integration, user authorization, and RLS security, and validated the results through production builds and E2E tests.",
         "demo": "https://feelog-fe.vercel.app/diaries",
         "image": "/projects/feelog.webp",
-        "repo": "https://github.com/haejunbag131-maker/feelog",
+        "repo": "https://github.com/jun6390/feelog",
         "stack": ["Cursor AI", "Next.js", "CSS Modules", "TypeScript"]
       }
     ]
@@ -188,7 +199,7 @@
     "items": [
       {
         "label": "GitHub",
-        "href": "https://github.com/haejunbag131-maker"
+        "href": "https://github.com/jun6390"
       },
       {
         "label": "Velog",

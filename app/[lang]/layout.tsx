@@ -18,12 +18,12 @@ const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Jun-Portfolio",
+  title: "Portfolio-Jun",
   description: "Personal portfolio website",
   icons: {
-    icon: "/logo-current.png",
-    shortcut: "/logo-current.png",
-    apple: "/logo-current.png",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 

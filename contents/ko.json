@@ -54,6 +54,10 @@
     ],
     "backend": [
       {
+        "name": "Node.js",
+        "icon": "/stack/nodejs.svg"
+      },
+      {
         "name": "Spring Boot",
         "icon": "/stack/spring_boot.png"
       },
@@ -74,6 +78,10 @@
       {
         "name": "MySQL",
         "icon": "/stack/mysql.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "/stack/postgresql.svg"
       },
       {
         "name": "MongoDB",
@@ -115,10 +123,10 @@
         "description": "여러 기관에 흩어진 장학금 정보를 통합 탐색하고, 사용자의 학적·지역·소득·성적 조건 등을 기반으로 맞춤 장학금을 \n 추천하며, 관심 장학금의 마감 일정을 관리할 수 있도록 만든 웹 서비스입니다. \n\n 저는 이 프로젝트에서 프론트엔드 개발을 담당하며 장학금 검색, 맞춤 추천, 관심목록, 캘린더, 커뮤니티, 쪽지, \n 인증 흐름 등을 구현했습니다. 단순 화면 구현을 넘어 API 연동, 서버 상태 관리, 낙관적 업데이트, 성능 최적화, \n 접근성 검증까지 진행하며 사용자가 장학금을 찾고 지원 일정을 관리하는 흐름을 하나로 연결했습니다.",
         "image": "/projects/scholarmate.webp",
         "demo": "https://scholarmate-fe.vercel.app/",
-        "repo": "https://github.com/haejunbag131-maker/scholarmate-frontend",
+        "repo": "https://github.com/jun6390/scholarmate-frontend",
         "paper": "/projects/scholarmate_paper.pdf",
         "portfolioPdf": "/projects/scholarmate_port.pdf",
-        "stack": ["React", "Tailwind CSS", "JavaScript", "Vite"]
+        "stack": ["React", "Tailwind CSS", "JavaScript"]
       },
       {
         "id": "2",
@@ -128,7 +136,7 @@
         "description": "MoodWave는 Spotify 음악 탐색과 재생을 중심으로 사용자의 감정과 현재 날씨에 어울리는 곡을 추천하고, \n 사용자가 가장 많이 들은 장르를 분석해 해당 장르의 인기곡을 추천하는 웹 서비스입니다. \n\n 저는 프로젝트에서 공통 레이아웃과 해시 라우팅, 홈·검색·플레이리스트·감정 추천 UI, Spotify OAuth 및 \n Web Playback SDK 기반 플레이어를 구현했습니다. \n 프로젝트 종료 후에는 페이지 생명주기 정리, 요청 취소, 데이터 캐싱, 외부 SDK 지연 로딩, \n 이미지 최적화까지 진행했습니다.",
         "demo": "https://moodwave-fe.vercel.app/",
         "image": "/projects/moodwave.webp",
-        "repo": "https://github.com/haejunbag131-maker/moodwave-frontend",
+        "repo": "https://github.com/jun6390/moodwave-frontend",
         "report": "/projects/moodwave.pdf",
         "portfolioPdf": "/projects/moodwave_port.pdf",
         "video": "https://youtu.be/KzjJEWp_JRg?si=Cs7nsR7ZQjDaIr75",
@@ -136,12 +144,24 @@
       },
       {
         "id": "3",
+        "title": "DevTube",
+        "category": "Personal Project [1]",
+        "year": "2024",
+        "description": "DevTube는 YouTube API를 기반으로 개발자와 자격증 학습자를 위한 영상을 탐색하고 시청할 수 있는 학습 영상 모음 웹 서비스입니다.\n\nReact와 Vite를 기반으로 추천 영상, 추천 개발자, 강의 카테고리, 검색, 채널 상세, 영상 상세 페이지를 구현했습니다.\n반응형 레이아웃을 개선하며 모바일 환경에서 영상 재생과 사이드바 사용성을 보완했고, React Query를 도입해 API 요청 캐싱, 중복 요청 방지, 에러 상태 처리를 구조화했습니다.\n\n스켈레톤 UI, 에러 안내 문구, 이미지 lazy loading, 폰트 최적화, SEO 메타 처리, 접근성 속성, ESLint·Prettier 설정을 적용해 사용자 경험과 코드 품질을 함께 개선했습니다.\n빌드 검증과 lint·format 검사를 통해 변경 사항의 안정성을 확인했습니다.",
+        "demo": "https://devtube-fe.vercel.app/",
+        "image": "/projects/devtube.webp",
+        "repo": "https://github.com/jun6390/devtube",
+        "stack": ["React", "SCSS", "JavaScript"]
+      },
+      {
+        "id": "4",
         "title": "Feelog",
-        "category": "Personal Project",
+        "category": "Personal Project [2]",
         "year": "2025",
         "description": "Feelog는 하루의 감정과 이야기를 기록하고, 검색·감정 필터를 통해 지난 일기를 돌아보며 회고를 남길 수 있는 \n 감정 기록 웹 서비스입니다.\n\nCursor AI를 활용해 요구사항을 기능 단위로 분해하고 프롬프트를 설계하여 일기 CRUD, 검색·필터·페이지네이션, \n 회고, 사진 보관함, 인증 흐름을 구현했습니다. \n 생성된 코드를 직접 검토하고 오류를 재현하며 React Query 상태 관리, Next.js API Routes, Supabase 연동, \n 사용자 권한 및 RLS 보안을 개선했고, 빌드와 E2E 테스트로 결과를 검증했습니다.",
+        "demo": "https://feelog-fe.vercel.app/",
         "image": "/projects/feelog.webp",
-        "repo": "https://github.com/haejunbag131-maker/feelog",
+        "repo": "https://github.com/jun6390/feelog",
         "stack": ["Cursor AI", "Next.js", "CSS Modules", "TypeScript"]
       }
     ]
@@ -191,7 +211,7 @@
     "items": [
       {
         "label": "GitHub",
-        "href": "https://github.com/haejunbag131-maker"
+        "href": "https://github.com/jun6390"
       },
       {
         "label": "Velog",
