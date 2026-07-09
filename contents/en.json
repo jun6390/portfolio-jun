@@ -112,7 +112,6 @@
         "image": "/projects/scholarmate.webp",
         "demo": "https://배포주소.com",
         "repo": "https://github.com/jun6390/scholarmate-frontend",
-        "paper": "/projects/scholarmate_paper.pdf",
         "portfolioPdf": "/projects/scholarmate_port.pdf",
         "stack": ["React", "Tailwind CSS", "JavaScript", "Vite"]
       },

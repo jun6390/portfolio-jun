@@ -124,7 +124,6 @@
         "image": "/projects/scholarmate.webp",
         "demo": "https://scholarmate-fe.vercel.app/",
         "repo": "https://github.com/jun6390/scholarmate-frontend",
-        "paper": "/projects/scholarmate_paper.pdf",
         "portfolioPdf": "/projects/scholarmate_port.pdf",
         "stack": ["React", "Tailwind CSS", "JavaScript"]
       },
