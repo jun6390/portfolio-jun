@@ -125,7 +125,8 @@
         "demo": "https://scholarmate-fe.vercel.app/",
         "repo": "https://github.com/jun6390/scholarmate-frontend",
         "portfolioPdf": "/projects/scholarmate_port.pdf",
-        "stack": ["React", "Tailwind CSS", "JavaScript"]
+        "paper": "/projects/scholarmate_paper.pdf",
+        "stack": ["React", "Tailwind CSS", "JavaScript", "Vite"]
       },
       {
         "id": "2",
@@ -136,8 +137,8 @@
         "demo": "https://moodwave-fe.vercel.app/",
         "image": "/projects/moodwave.webp",
         "repo": "https://github.com/jun6390/moodwave-frontend",
-        "report": "/projects/moodwave.pdf",
         "portfolioPdf": "/projects/moodwave_port.pdf",
+        "report": "/projects/moodwave.pdf",
         "video": "https://youtu.be/KzjJEWp_JRg?si=Cs7nsR7ZQjDaIr75",
         "stack": ["HTML5", "CSS3", "JavaScript", "Vite"]
       },
