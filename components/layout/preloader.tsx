@@ -10,8 +10,11 @@ export function Preloader() {
   const { theme } = useTheme();
 
   useEffect(() => {
-    setIsLoading(true);
     document.body.style.overflow = "hidden";
+
+    const showFrame = window.requestAnimationFrame(() => {
+      setIsLoading(true);
+    });
 
     const timer = window.setTimeout(() => {
       setIsLoading(false);
@@ -19,6 +22,7 @@ export function Preloader() {
     }, 1200);
 
     return () => {
+      window.cancelAnimationFrame(showFrame);
       window.clearTimeout(timer);
       document.body.style.overflow = "";
     };

@@ -27,7 +27,9 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
       smoothWheel: true,
     });
 
-    setLenis(lenisInstance);
+    const syncContextFrame = requestAnimationFrame(() => {
+      setLenis(lenisInstance);
+    });
 
     let rafId: number;
 
@@ -39,9 +41,9 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
     rafId = requestAnimationFrame(raf);
 
     return () => {
+      cancelAnimationFrame(syncContextFrame);
       cancelAnimationFrame(rafId);
       lenisInstance.destroy();
-      setLenis(null);
     };
   }, []);
 

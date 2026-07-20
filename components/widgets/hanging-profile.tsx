@@ -1,12 +1,16 @@
 "use client";
 
 import { User } from "lucide-react";
-import { useEffect, useRef } from "react";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+
+const PROFILE_PHOTO_SRC = "/profile-photo.jpg";
 
 export function HangingProfile() {
   const boxRef = useRef<HTMLDivElement>(null);
   const ropeRef = useRef<SVGLineElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [showProfilePhoto, setShowProfilePhoto] = useState(true);
 
   const gravity = 1.2;
   const ropeLength = 180;
@@ -156,8 +160,20 @@ export function HangingProfile() {
           touchAction: "none",
         }}
       >
-        <div className="mb-3 flex size-20 items-center justify-center overflow-hidden rounded-full border border-foreground/20 bg-foreground/5 transition-colors duration-300 pointer-events-none group-hover:border-foreground/40">
-          <User className="size-10 text-foreground/40 transition-colors duration-300 group-hover:text-foreground/70" />
+        <div className="pointer-events-none relative mb-3 flex size-20 items-center justify-center overflow-hidden rounded-full border border-foreground/20 bg-foreground/5 transition-colors duration-300 group-hover:border-foreground/40">
+          {showProfilePhoto ? (
+            <Image
+              src={PROFILE_PHOTO_SRC}
+              alt="Park Haejun profile photo"
+              fill
+              priority
+              sizes="80px"
+              className="object-cover"
+              onError={() => setShowProfilePhoto(false)}
+            />
+          ) : (
+            <User className="size-10 text-foreground/40 transition-colors duration-300 group-hover:text-foreground/70" />
+          )}
         </div>
 
         <div className="pointer-events-none flex flex-col items-center gap-1">
